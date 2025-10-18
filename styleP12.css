@@ -1,0 +1,147 @@
+body {
+  margin: 0 10%;
+  background-color: hwb(175 30% 30%);
+  font-family: sans-serif;
+  font-size: 1.5rem;
+  text-align: justify;
+}
+
+h1 {
+  margin: 0;
+  color: hwb(175 0% 70%);
+  font-size: 3rem;
+  text-align: center;
+}
+p.intro {
+    text-align: center;
+    font-size: 20px;
+}
+
+p.links {
+    text-align: center;
+    font-size: 20px;
+    color: hwb(175 0% 70%);
+}
+nav {
+  font-weight: bold;
+  text-align:center;
+}
+
+a {
+  color: hwb(175 0% 70%);
+}
+
+a:visited {
+  color: hwb(20 0% 10%);
+}
+
+section {
+  clear: both;
+  overflow: auto;
+  margin: 40px;
+  padding: 30px 40px;
+  background-color: white;
+}
+
+section.uno {
+  border: hwb(20 0% 10%) 20px solid;
+}
+
+section.dos {
+  border: hwb(35 20% 0%) 20px solid;
+}
+
+h2 {
+  margin-top: 0;
+}
+
+img {
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+section.uno img {
+  float: left;
+  margin-right: 20px;
+  border: hwb(20 0% 10%) 20px solid;
+  background-color: hwb(35 20% 0%);
+}
+
+section.dos img {
+  float: right;
+  margin-left: 20px;
+  border: hwb(35 20% 0%) 20px solid;
+  background-color: hwb(20 0% 10%);
+}
+
+
+/*
+body {
+    background-color: hwb(175 2% 28%);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  margin: 0;
+    text-align: center;
+    color: hwb(174 4% 52%);
+}
+
+
+
+
+
+.contenedor1{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  border: 10px solid hwb(16 0% 0%);
+  background-color: hwb(0 100% 0%);
+  font-size: 13px;
+  padding: 10px;
+  margin: 10px 0;
+  flex-direction: row;
+}
+.contenedor2{
+display: flex;
+  align-items: center;
+  gap: 20px;
+  border: 10px solid hwb(16 0% 0%);
+  background-color: hwb(0 100% 0%);
+  font-size: 13px;
+  padding: 10px;
+  margin: 10px 0;
+  flex-direction: row-reverse;
+}
+.contenedor1 h2,
+.contenedor2 h2 {
+
+  width: 1%;
+}
+
+.contenedor1 p,
+.contenedor2 p{
+    text-align: justify;
+    margin-left: 10px;
+    margin-right: 10px;
+    flex: 1;
+}
+
+.imagenb,
+.imagenc {
+  width: 200px;
+  height: auto;
+  border: 10px solid hwb(16 35% 7%);
+  box-shadow: 0 0 0 8px #f03a12;
+  margin: 5px;
+  flex-shrink: 0;
+}
+
+a{
+    color: hbw(175 0% 70%);
+}
+
+nav{
+  font-weight: bold;
+  text-align: center;  
+}
