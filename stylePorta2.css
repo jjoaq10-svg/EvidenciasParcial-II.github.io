@@ -162,7 +162,7 @@ body {
 
   /* Ocultar scrollbar en WebKit */
   .grid-container::-webkit-scrollbar {
-    display: none;
+    display: auto;
   }
 
 
@@ -239,4 +239,5 @@ body {
      -moz-animation-iteration-count: infinite;
           animation-iteration-count: infinite;
 }
+
 
